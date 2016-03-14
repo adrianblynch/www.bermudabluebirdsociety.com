@@ -23,20 +23,20 @@
 	display: inline;
 	text-align: left;
 }
- 
+
 #nav ul li a {
 	padding: 0 12px 0 13px;
 	display: block;
-	background: url(/images/10/nav-separator.gif) no-repeat right center;
+	background: url(images/10/nav-separator.gif) no-repeat right center;
 	color: #ffffff;
 	text-decoration: none;
 	font-family: verdana, arial, helvetica, sans-serif;
 }
- 
+
 #nav ul li a:hover {
 	color: #f8fafa;
 }
- 
+
 #nav ul li a:visited {
 	color: #cccccc;
 }
@@ -44,7 +44,7 @@
 #nav ul a.active {
 	color: #f8fafa;
 }
- 
+
 #nav ul li.last a {
 	background: none;
 }
