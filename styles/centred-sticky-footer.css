@@ -1,0 +1,75 @@
+/*
+	Contains all the needed rules for a centred page with a footer that remains at the bottom.
+	
+	Sample HTML:
+	
+		<body>
+			<div id="nonFooter">
+				<div id="header">
+					Header
+				</div>
+				<div id="main">
+					Content
+				</div>
+			</div>
+			<div id="footer">
+				Footer
+			</div>
+		</body>
+	
+	Conditionally include centred-sticky-footer.lte-ie6-gte-ie8.css with the following:
+	
+		<!--[if (lte IE 6)|(gte IE 8)]>
+			<link type="text/css" rel="stylesheet" href="centred-sticky-footer.lte-ie6-gte-ie8.css" />
+		<![endif]-->
+	
+*/
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #33dd88;
+}
+
+#body {
+	background-color: blue; /* Move to another file or override */
+	width: 500px; /* Move to another file or override */
+	height: 100%;
+	margin: auto;
+}
+
+#nonFooter {
+	background-color: red; /* Move to another file or override */
+	min-height: 100%;
+	margin-top: -40px; /* Footer height - this drags the nonFooter up through the top of the monitor. Move to another file or override */
+}
+
+#header {
+	background-color: #ff9944; /* Move to another file or override */
+	border-top: solid 40px #ffffff; /* Soak up negative margin and allows header to start at top of page. Move to another file or override */
+}
+
+#main {
+	background-color: lightgreen /* Move to another file or override */
+}
+
+#footer {
+	background-color: #555555; /* Move to another file or override */
+	margin: auto;
+	height: 40px; /* Must match negative margin of nonFooter. Move to another file or override */
+	clear: both;
+}
+
+/* Opera Fix */
+body:before {
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0px;
+	margin-top: -32767px;
+}

@@ -1,0 +1,262 @@
+
+body, p, div, li, a, span, td, tr, h1, h2, h3, h4 {
+	font-family: arial,helvetica,sans-serif;
+}
+
+a {
+	color: #488bb5;
+}
+
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+
+table, table tr td, table tr th {
+	border-collapse: collapse;
+	border: solid 1px #ccc;
+}
+
+table tr th {
+	text-align: left;
+}
+
+table tr td, table tr th {
+	padding: 1px 3px 1px 3px;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h2 a.anchor:hover {
+	text-decoration: none;
+}
+
+blockquote {
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #006699;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background-image: url(/images/10/bg-tile.gif);
+	background-repeat: repeat;
+}
+
+#body {
+	background-color: blue;
+	width: 750px;
+}
+
+#nonFooter {
+	background-color: white; /* Overridden */
+	margin-top: -1.9em; /* Overridden */
+}
+
+#header {
+	background-color: white; /* Overridden */
+	border-top: solid 1.9em white; /* Overridden */
+}
+
+#main {
+	background-color: white; /* Overridden */
+	width: 476px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 15px 32px 0px 32px;
+}
+
+#rightColumn {
+	float: right;
+	width: 210px;
+}
+
+#rightColumn #links {
+	color: white;
+	background: #000033;
+	border: solid 0px green;
+	padding: 10px 10px 20px 10px;
+}
+
+#rightColumn #links h2 {
+	text-align: center;
+	font-size: 14px;
+}
+
+#rightColumn #links a {
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#rightColumn #links a:hover, #rightColumn #links a:visited {
+	color: #ccc;
+}
+
+#rightColumn #pictures {
+	text-align: center;
+}
+
+input.text {
+	width: 18em;
+}
+
+fieldset, .fieldset {
+	border: solid 0px black;
+	margin: 4px 0px 0px 0px;
+	padding: 0px;
+	clear: both;
+}
+
+label, .label {
+	float: left;
+	width: 18em;
+	border: solid 0px black;
+}
+
+.listLabel {
+	margin-bottom: 3px;
+}
+
+.radioList label, .checkList label {
+	width: 17em;
+	margin-left: 1em;
+}
+
+.field {
+	float: left;
+}
+
+textarea {
+	width: 220px;
+	height: 90px;
+}
+
+input.text {
+	width: 220px;
+}
+
+#footer {
+	background-color: #003366; /* Overridden */
+	height: 1.9em; /* Overridden */
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	padding: .3em;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+/* Classes for content */
+
+#main h1 {
+	background-color: #336699;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#main h2 {
+	font-size: 14px;
+}
+
+#main p, #main dt, #main dd, #main li, #main label, #main fieldset {
+	font-size: 12px;
+	text-align: justify;
+}
+
+#main dl dt {
+	margin-top: 10px;
+}
+
+#main dl dd {
+	margin: 0px;
+}
+
+ul.non {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+img.left {
+	float: left;
+	padding-right: 10px;
+}
+
+img.right {
+	float: right;
+	padding-left: 10px;
+}
+
+img.centre {
+	display: block;
+	margin: 0px auto;
+}
+
+.summary {
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.summary h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.summary h2 span {
+	font-weight: normal;
+	font-size: 60%;
+}
+
+.summary p {
+	padding: 0px;
+	margin: 0px;
+}
+
+dl.rows {
+	border: 0px solid #999;
+	float: left;
+	width: 100%;
+	margin: 0em 0 1em 0;
+	padding: 0;
+}
+
+dl.rows dt {
+	clear: left;
+	float: left;
+	width: 45%;
+	margin: 0;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	font-weight: normal;
+}
+
+dl.rows dd {
+	float: left;
+	width: 45%;
+	margin: 0;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+}
+
+#siteMap li {
+	list-style: none;
+}
